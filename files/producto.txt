@@ -15,6 +15,12 @@
     "id": "8651",
     "title": "Squirtle",
     "price": 582,
-    "thumbnail": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
+    "thumbnail": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"
+  },
+  {
+    "id": "5219",
+    "title": "Bulbasaur",
+    "price": 851,
+    "thumbnail": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
   }
 ]

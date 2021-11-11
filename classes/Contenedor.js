@@ -88,6 +88,18 @@ class Contenedor{
             return {status: "error", message: "No se pueden eliminar los productos"}
             }
     }
+
+    async getRandom(){
+        try{
+            let data = await fs.promises.readFile('./files/producto.txt','utf-8')
+            let events = JSON.parse(data);
+            let event = events[Math.floor(Math.random()*events.lenght)];
+
+            return {status:"success", event:event}
+        }catch(err){
+            return {status:"error", message:"Intentalo de nuevo"}
+        }
+    }
 }
 
 module.exports = Contenedor;
